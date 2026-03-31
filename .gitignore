@@ -1,0 +1,75 @@
+# Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+build/
+pubspec.lock
+*.lock
+
+# Android
+android/app/google-services.json
+android/app/src/main/res/values/keys.xml
+
+# iOS
+ios/Flutter/Generated.xcconfig
+ios/Runner/GoogleService-Info.plist
+ios/Runner/Info.plist
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Runner/DebugProfile.entitlements
+macos/Runner/Release.entitlements
+
+# Windows
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugin_registrant.h
+
+# Linux
+linux/flutter/generated_plugins.cmake
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# Web
+web/index.html
+web/favicon.png
+web/manifest.json
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend
+backend/trading.db
+backend/data/
+backend/stock-trading-backend
+
+# Docker
+docker-compose.override.yml
+
+# Security
+*.pem
+*.key
+*.crt
+
+# Cache
+.cache/
