@@ -1,0 +1,92 @@
+name: stock_trading_app
+description: Professional Stock Trading Application
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  flutter_riverpod: ^2.4.0
+  flex_color_scheme: ^7.3.1
+  google_fonts: ^6.1.0
+  fl_chart: ^0.65.0
+  syncfusion_flutter_charts: ^23.2.7
+  draggable_home: ^1.0.4
+  
+  # State Management & Storage
+  shared_preferences: ^2.2.1
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  
+  # Networking
+  dio: ^5.3.3
+  web_socket_channel: ^2.4.0
+  http: ^1.1.0
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Multi-window support
+  window_manager: ^0.3.8
+  multi_window: ^0.3.0
+  
+  # Security
+  local_auth: ^2.1.7
+  pointycastle: ^3.7.3
+  cryptography: ^2.7.0
+  
+  # Data Export
+  csv: ^5.1.1
+  excel: ^2.1.0
+  share_plus: ^7.2.1
+  path_provider: ^2.1.1
+  
+  # AI & ML
+  tflite_flutter: ^0.10.3
+  
+  # Monitoring
+  sentry_flutter: ^7.13.1
+  firebase_analytics: ^10.8.0
+  
+  # Utilities
+  intl: ^0.18.1
+  provider: ^6.1.1
+  url_launcher: ^6.2.1
+  logger: ^1.4.0
+  flutter_native_splash: ^2.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.3
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - assets/configs/
+    - assets/models/price_predictor.tflite
+    - assets/models/sentiment_analyzer.tflite
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icons/splash_icon.png
+  android: true
+  ios: true
+  web: false
