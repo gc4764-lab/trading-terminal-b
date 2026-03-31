@@ -1,0 +1,53 @@
+name: stock_trading_app
+description: Stock Trading Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  flutter_riverpod: ^2.4.0
+  flex_color_scheme: ^7.3.1
+  google_fonts: ^6.1.0
+  fl_chart: ^0.65.0
+  syncfusion_flutter_charts: ^23.2.7
+  
+  # State Management & Storage
+  shared_preferences: ^2.2.1
+  hive_flutter: ^1.1.0
+  sqflite: ^2.3.0
+  
+  # Networking
+  dio: ^5.3.3
+  web_socket_channel: ^2.4.0
+  http: ^1.1.0
+  
+  # Navigation
+  go_router: ^12.1.3
+  
+  # Multi-window support
+  window_manager: ^0.3.8
+  multi_window: ^0.3.0
+  
+  # Utilities
+  intl: ^0.18.1
+  provider: ^6.1.1
+  url_launcher: ^6.2.1
+  flutter_native_splash: ^2.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/icons/
+    - assets/configs/
